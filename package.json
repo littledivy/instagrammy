@@ -1,5 +1,5 @@
 {
-  "name": "IGdm",
+  "name": "instagrammy",
   "version": "2.6.2",
   "description": "Desktop application for Instagram DMs",
   "main": "main/main.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ifedapoolarewaju/igdm.git"
+    "url": "git+https://github.com/DivySrivastava/instagrammy.git"
   },
   "keywords": [
     "Instagram",
@@ -19,7 +19,7 @@
     "DM",
     "Social Media"
   ],
-  "author": "ifedapo olarewaju",
+  "author": "DivySrivastava",
   "license": "MIT",
   "dependencies": {
     "bluebird": "3.5.2",
@@ -45,11 +45,11 @@
     "publish": [
       {
         "provider": "github",
-        "owner": "ifedapoolarewaju",
+        "owner": "DivySrivastava",
         "repo": "igdm"
       }
     ],
-    "appId": "com.ifedapoolarewaju.desktop.igdm",
+    "appId": "com.DivySrivastava.desktop.igdm",
     "copyright": "ifedapo Olarewaju 2018",
     "mac": {
       "target": [
@@ -65,7 +65,7 @@
         "portable"
       ],
       "publish": "github",
-      "publisherName": "ifedapoolarewaju"
+      "publisherName": "DivySrivastava"
     },
     "linux": {
       "target": [
@@ -74,7 +74,7 @@
         "deb"
       ],
       "publish": "github",
-      "maintainer": "Ifedapo Olarewaju <ifedapoolarewaju@gmail.com>"
+      "maintainer": "Divy Srivastava <dj.srivastava23@gmail.com>"
     }
   }
 }
