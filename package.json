@@ -5,8 +5,8 @@
   "main": "main/main.js",
   "scripts": {
     "start": "gulp build && electron .",
-    "pack": "gulp build && build --dir",
-    "dist": "gulp build && build -mwl --x64"
+    "pack": "gulp build && build --linux deb",
+    "dist": "gulp build && build"
   },
   "repository": {
     "type": "git",
